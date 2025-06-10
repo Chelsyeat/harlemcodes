@@ -1,0 +1,64 @@
+/* ------------------- */
+/* CONTACT PAGE STYLES */
+/* ------------------- */
+
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #292944;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 188, 212, 0.3);
+  border-left: 6px solid #00bcd4;
+}
+
+.contact-container h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #00bcd4;
+  text-align: center;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.contact-container input,
+.contact-container textarea,
+.contact-container select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  font-size: 1em;
+}
+
+.contact-container button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(45deg, #00bcd4, #00e676);
+  border: none;
+  border-radius: 6px;
+  color: #1e1e2f;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-container button:hover {
+  background: linear-gradient(45deg, #00e676, #00bcd4);
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 25px;
+  }
+}
